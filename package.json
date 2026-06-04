@@ -1,0 +1,15 @@
+{
+  "name": "chrome-layout",
+  "version": "1.0.0",
+  "description": "Opens 3 browser windows in a layout: 1 vertical left, 2 stacked right",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^30.0.0"
+  }
+}
