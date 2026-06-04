@@ -2,9 +2,9 @@ const { app, BrowserWindow, screen } = require('electron')
 
 // Configure your URLs here
 const WINDOWS = [
-  { url: 'https://google.com', title: 'Window 1 - Left' },
-  { url: 'https://google.com', title: 'Window 2 - Top Right' },
-  { url: 'https://google.com', title: 'Window 3 - Bottom Right' },
+  { url: 'https://www.tradingview.com/chart/Ajjc93lG/', title: 'Window 1 - Left' },
+  { url: 'https://www.cmegroup.com/tools-information/quikstrike/vol2vol-expected-range.html?fbclid=IwdGRleAO5rDZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEehwgF_Mvzw2I7BzMJY4Ed9gbRNvCRY_sQK1IOubK7iQNStljljWKTL4pMWvI_aem_u1mpeNq-0Q4el6twXACyoA', title: 'Window 2 - Top Right' },
+  { url: 'https://www.cmegroup.com/tools-information/quikstrike/vol2vol-expected-range.html?fbclid=IwdGRleAO5rDZleHRuA2FlbQIxMQBzcnRjBmFwcF9pZAo2NjI4NTY4Mzc5AAEehwgF_Mvzw2I7BzMJY4Ed9gbRNvCRY_sQK1IOubK7iQNStljljWKTL4pMWvI_aem_u1mpeNq-0Q4el6twXACyoA', title: 'Window 3 - Bottom Right' },
 ]
 
 function createWindows() {
